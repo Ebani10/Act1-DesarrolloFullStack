@@ -1,0 +1,63 @@
+<html>
+
+    <head>
+        <title>Empresaurios</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+    <div class="container">
+        <h1>"Empre-Saurios"</h1>
+        <div class="flex-container">
+        <h2>En esta empresa nos dedicamos <br> a evitar la extincion por:</h2>
+        <button onclick="body.style.backgroundColor='red'"><strong><b>Burnout</b></strong></button>
+        </div>
+    </div>
+
+    <div class="container3">
+        <button class="dino-image" onclick="body.style.backgroundColor='lightblue'" style="background-image: url('./imagenes/Dino_elegante.jpg');">Yo te ayudo</button>
+        <p style="text-align: center; color: rgb(20, 181, 41)"> Nuestra vision es:</p>
+        <h3>Evitar una extincion masiva por el meteorito "brainout"</h3>
+        <p style="text-align: center;"> Algunos de nuestros proyectos son:</p>
+
+    </div>
+
+    
+
+    <div class="flex-container">
+        <div >
+            <h4>Manifestaciones varias que cerraron <br> avenidas grandes como Reforma</h4>
+            <img src="./imagenes/Manifestacion.jpg" alt="Protesta de la empresa en Paseo de la Reforma" style="width:200px;height:auto;">
+        </div>
+        <div>
+            <h4>Campañas de concientización <br> en redes sociales</h4>
+            <img src="./imagenes/Campaña.png" alt="Campaña en redes sociales" style="width: 200px ;height: auto;">
+        </div>
+        <div>
+            <h4>Charlas y talleres <br> en empresas y universidades</h4>
+            <img src="./imagenes/Conferencia.jpg" alt="Charla en universidad" style="width: 200px ;height: auto;">
+        </div>
+    </div>
+
+
+    <div class="container2">
+        <p>¿Como nos contactas?</p>
+        <div class="container2div2">
+            <b> -Correo electrónico: contacto@empre-saurios.com</b>
+            <b>     -Teléfono: +52 066 000 000 000</b>
+        </div>
+        <div class="container2div2">
+            <b>-Dirección: Calle Principal #123, Ciudad, País</b>
+            <b>     -Redes sociales: @empre-saurios</b>
+        </div>
+        <div class="container2div">
+            <p>Todos los derechos reservados a @Empresaurios</p>
+        </div>
+    </div>
+
+    </body>
+    
+    
+
+</html>
