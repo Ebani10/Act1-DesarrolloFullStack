@@ -1,0 +1,75 @@
+<html>
+
+    <head>
+        <title>Empresaurios</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+    <div class="container">
+        <h1>"Empre-Saurios"</h1>
+        <div class="flex-container">
+        <h2>En esta empresa nos dedicamos <br> a evitar la extincion por:</h2>
+        <button onclick="body.style.backgroundColor='red'"><strong><b>Burnout</b></strong></button>
+        </div>
+    </div>
+
+    <div class="container3">
+        <button class="dino-image" onclick="body.style.backgroundColor='lightblue'" style="background-image: url('./imagenes/Dino_elegante.jpg');">Yo te ayudo</button>
+        <h3>Nosotros vemos por un mundo sin explotacion laboral</h3>
+    </div>
+
+    <div class="container4">   
+        <p style="text-align: center; color:black"><strong>Algunos de nuestros proyectos son:</strong></p>
+    </div>
+
+    <div class="flex-container">
+        <div >
+            <h4>Manifestaciones varias que cerraron <br> avenidas grandes como Reforma</h4>
+            <img src="./imagenes/Manifestacion.jpg" alt="Protesta de la empresa en Paseo de la Reforma" style="width:200px;height:auto; border-radius: 10px;">
+        </div>
+        <div>
+            <h4>Campañas de concientización <br> en redes sociales</h4>
+            <img src="./imagenes/Campaña.png" alt="Campaña en redes sociales" style="width: 200px ;height: auto; border-radius: 10px;">
+        </div>
+        <div>
+            <h4>Charlas y talleres <br> en empresas y universidades</h4>
+            <img src="./imagenes/Conferencia.jpg" alt="Charla en universidad" style="width: 200px ;height: auto; border-radius: 10px;">
+        </div>
+    </div>
+
+
+    <div class="container2">
+        <p style="font-size: 1.5rem;"><strong>¿Como nos contactas?</strong></p>
+        <form>
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Apellidos:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="Correo">Correo:</label><br>
+            <input type="text" id="Correo" name="Correo"><br>
+            <label for="Razon">Razon de su solicitud:</label><br>
+            <input type="text" id="Razon" name="Razon"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="container2div3">
+            <div class="container2div2">
+            <b> <strong>-Correo electrónico:</strong> contacto@empre-saurios.com</b>
+            <b> <strong>-Teléfono:</strong> +52 066 000 000 000</b>
+            </div>
+            <div class="container2div2">
+            <b> <strong>-Dirección:</strong> Calle Principal #123, Ciudad, País</b>
+            <b> <strong>-Redes sociales:</strong> @empre-saurios</b>
+            </div>
+        </div>
+        <div class="container2div">
+            <p>Todos los derechos reservados a @Empresaurios</p>
+        </div>
+    </div>
+
+    </body>
+    
+    
+
+</html>
