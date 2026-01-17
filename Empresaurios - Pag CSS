@@ -1,0 +1,140 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(20, 135, 181);
+  text-align: center;
+  font-size: 3.5em;
+  margin-top: 100px;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 0px;
+}
+
+h3 {
+  color: rgb(255, 153, 0);
+  text-align: center;
+}
+
+p {
+  color: rgb(255, 255, 255);
+}
+li {
+  color: rgb(170, 34, 255);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  background-color: rgb(135, 0, 0);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dino-image {
+  text-decoration: double;
+  width: 224px; 
+  height: 145px; 
+  color: black; 
+  text-align: right;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 5%;
+            
+}
+.flex-container div{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aquamarine;
+    margin-top: 0.5%;
+    border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./imagenes/Dinos.webp');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 650px;
+  margin-bottom: 5%;
+
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(52, 137, 54);
+  margin: 0;
+
+}
+.container2div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(25, 89, 26);
+  margin: 0;
+  width : 100%;
+}
+.container2div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(52, 137, 54);
+  margin: 0;
+}
+.container2div3 {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-bottom: 2%;
+            
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aquamarine;
+  width: 30%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 3%;
+  font-size: 1.5em;
+}
+
+form {
+  align-items: center;
+  font-size: 1.2em;
+}
